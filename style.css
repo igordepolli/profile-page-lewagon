@@ -32,12 +32,16 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 .card {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   padding: 40px;
   background-color: #f5f6fa;
   border-radius: 4px;
-  width: 40%;
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
@@ -47,9 +51,13 @@ h1 {
   font-size: 35px;
 }
 
+p {
+  margin-bottom: 30px;
+}
+
 h2 {
   font-weight: lighter;
-  color: #0f1824;
+  color: #273c75;
   font-size: 25px;
 }
 
@@ -68,6 +76,18 @@ h2 {
   filter: brightness(80%);
 }
 
+.btn-main {
+  background-color: #273c75;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-main:hover {
+  background-color: #536fbe;
+  color: white;
+}
+
 a {
   color: #273c75;
   font-weight: bold;
@@ -75,7 +95,7 @@ a {
 }
 
 a:hover {
-  color: #7f8fa6;
+  color: #536fbe;
   transition: 0.5s ease;
 }
 
@@ -90,6 +110,7 @@ a:hover {
 
 .list-inline li i {
   font-size: 40px;
+  margin-right: 5px;
 }
 
 #lewagon-a {
